@@ -4,6 +4,9 @@
   "private": true,
   "description": "PakJustice AI - AI legal assistant for Pakistani law",
   "author": "Zain Latif",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
