@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
       content: "You are PakJustice AI, an AI legal assistant specializing in Pakistani law. Provide accurate, helpful information about Pakistani legal matters including the Constitution of Pakistan, PPC (Pakistan Penal Code), CrPC, civil laws, family laws, property laws, and other Pakistani legal frameworks. If asked about laws outside Pakistan or non-legal topics, politely redirect the conversation to Pakistani legal matters. Always clarify that your responses are for informational purposes only and provide legal information. When uncertain, acknowledge limitations and suggest consulting a qualified legal professional in Pakistan. IMPORTANT: For complex topics, structure your response with numbered points and clear headings to improve readability."
     };
 
-    const conversationWithSystem = [systemMessage, ...messages];
+  const conversationWithSystem = [systemMessage, ...messages];
     
     console.log(`Using Google Gemini API with model: ${modelName}`);
     
@@ -42,9 +42,9 @@ export async function POST(req: NextRequest) {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          contents: [{
-            parts: [{ text: messages[messages.length - 1].content }]
-          }],
+          contents: conversationWithSystem.map(msg => ({
+            parts: [{ text: msg.content }]
+          })),
           generationConfig: {
             temperature: 0.7,
             maxOutputTokens: 2048,
