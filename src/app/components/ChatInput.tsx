@@ -31,7 +31,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, disabled }) => {
         <textarea
           className="w-full p-4 pr-16 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
           rows={3}
-          placeholder="Ask about Indian laws, legal procedures, rights, etc."
+          placeholder="Ask about Pakistani laws, legal procedures, rights, etc."
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={handleKeyDown}
@@ -60,7 +60,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, disabled }) => {
       </div>
       {disabled && (
         <p className="text-sm text-gray-500 mt-2 text-center">
-          NyayaSahayak is thinking...
+          PakJustice AI is thinking...
         </p>
       )}
     </form>

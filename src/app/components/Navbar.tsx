@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
               <Scale className="w-5 h-5 text-white" />
             </div>
             <span className="text-white text-xl font-bold">
-              <span className="text-primary-500">Nyaya</span>Sahayak
+              <span className="text-primary-500">Pak</span>Justice AI
             </span>
           </Link>
 

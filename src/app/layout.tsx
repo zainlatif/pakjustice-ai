@@ -6,8 +6,8 @@ import ClientLayout from './components/ClientLayout';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NyayaSahayak - AI Legal Assistant',
-  description: 'Your AI-powered legal assistant for navigating Indian law',
+  title: 'PakJustice AI - AI Legal Assistant',
+  description: 'Your AI-powered legal assistant for navigating Pakistani law',
 };
 
 export default function RootLayout({

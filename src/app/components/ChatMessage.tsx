@@ -23,7 +23,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
         }`}
       >
         <div className="text-sm font-semibold mb-1">
-          {isUser ? 'You' : 'NyayaSahayak'}
+          {isUser ? 'You' : 'PakJustice AI'}
         </div>
         <div className="prose dark:prose-invert prose-sm max-w-none">
           <ReactMarkdown>{message.content}</ReactMarkdown>

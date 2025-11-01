@@ -99,13 +99,13 @@ const ChatInterface: React.FC = () => {
               <div className="w-24 h-24 rounded-full bg-gradient-to-br from-orange-500/20 to-orange-700/20 flex items-center justify-center mb-8">
                 <Scale className="w-12 h-12 text-orange-500" />
               </div>
-              <h2 className="text-3xl font-bold text-white mb-4">Welcome to NyayaSahayak</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">Welcome to PakJustice AI</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl">
                 {[
                   "What are my rights if I'm arrested?",
                   "Explain the process of filing an FIR",
-                  "What is the difference between IPC and CrPC?",
-                  "How can I apply for bail in India?"
+                  "What is the difference between PPC and CrPC?",
+                  "How can I apply for bail in Pakistan?"
                 ].map((suggestion, index) => (
                   <button
                     key={index}
@@ -140,7 +140,7 @@ const ChatInterface: React.FC = () => {
                   <div className="max-w-3xl rounded-2xl p-5 glass text-gray-200 border border-gray-800">
                     <div className="flex items-center space-x-3">
                       <Loader2 className="w-5 h-5 animate-spin text-orange-500" />
-                      <span>NyayaSahayak is thinking...</span>
+                      <span>PakJustice AI is thinking...</span>
                     </div>
                   </div>
                 </div>
@@ -169,7 +169,7 @@ const ChatInterface: React.FC = () => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="Ask about Indian law..."
+              placeholder="Ask about Pakistani law..."
               className="w-full glass text-white rounded-xl border border-gray-800 focus:border-orange-500 focus:ring-1 focus:ring-orange-500 outline-none p-4 pr-16 resize-none h-[60px] placeholder-gray-500"
               disabled={isLoading}
             />

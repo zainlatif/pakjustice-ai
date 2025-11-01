@@ -12,11 +12,11 @@ export default function AboutPage() {
               <span className="bg-gradient-to-r from-orange-500 to-orange-700 text-transparent bg-clip-text">
                 About
               </span>{' '}
-              NyayaSahayak
+              PakJustice AI
             </h1>
             <div className="h-[2px] w-16 bg-orange-500/60 mx-auto mb-6"></div>
             <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto">
-              Making legal information accessible to everyone in India
+              Making legal information accessible to everyone in Pakistan
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function AboutPage() {
           <div className="bg-gray-900/50 p-8 rounded-md border border-gray-800 shadow-lg">
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Our Mission</h2>
             <p className="text-base md:text-lg text-gray-300">
-              NyayaSahayak aims to democratize access to legal information in India by leveraging 
+              PakJustice AI aims to democratize access to legal information in Pakistan by leveraging 
               artificial intelligence to provide accurate, easy-to-understand legal guidance. 
               We believe that understanding your rights and the legal system should not require 
               specialized knowledge or expensive consultations.
@@ -57,7 +57,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-lg font-semibold mb-3 group-hover:text-orange-400 transition-colors">AI-Powered Assistance</h3>
               <p className="text-sm text-gray-400">
-                NyayaSahayak uses advanced large language models trained on Indian legal texts, 
+                PakJustice AI uses advanced large language models trained on Pakistani legal texts, 
                 case law, and legal procedures. Our AI is designed to provide accurate information 
                 while making complex legal concepts understandable to everyone.
               </p>
@@ -69,9 +69,9 @@ export default function AboutPage() {
               </div>
               <h3 className="text-lg font-semibold mb-3 group-hover:text-orange-400 transition-colors">Legal Knowledge Base</h3>
               <p className="text-sm text-gray-400">
-                Our system is built on a comprehensive knowledge base of Indian laws, including 
-                the Constitution, IPC, CrPC, and various civil and criminal procedures. This allows 
-                us to provide context-specific information tailored to the Indian legal system.
+                Our system is built on a comprehensive knowledge base of Pakistani laws, including 
+                the Constitution of Pakistan, PPC (Pakistan Penal Code), CrPC, and various civil and criminal procedures. This allows 
+                us to provide context-specific information tailored to the Pakistani legal system.
               </p>
             </div>
           </div>
@@ -88,12 +88,12 @@ export default function AboutPage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-3">Important Disclaimer</h3>
-                <p className="text-sm text-gray-300">
-                  NyayaSahayak provides general legal information for educational purposes only. 
-                  The information provided should not be construed as legal advice, and no attorney-client 
-                  relationship is created by using this service. For specific legal issues, please 
-                  consult with a qualified legal professional.
-                </p>
+                    <p className="text-sm text-gray-300">
+                      PakJustice AI provides general legal information for educational purposes only. 
+                      The information provided is not a substitute for professional legal counsel, and no attorney-client 
+                      relationship is created by using this service. For specific legal issues, please 
+                      consult with a qualified legal professional in Pakistan.
+                    </p>
               </div>
             </div>
           </div>

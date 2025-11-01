@@ -26,7 +26,7 @@ export default function Home() {
             </h1>
             <div className="h-[2px] w-16 bg-orange-500/60 mx-auto mb-6"></div>
             <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-              NyayaSahayak is your AI-powered legal assistant, making Indian law accessible and understandable for everyone.
+              PakJustice AI is your AI-powered legal assistant, making Pakistani law accessible and understandable for everyone.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link 
@@ -53,10 +53,10 @@ export default function Home() {
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              How NyayaSahayak Can <span className="text-orange-500">Help You</span>
+              How PakJustice AI Can <span className="text-orange-500">Help You</span>
             </h2>
             <div className="h-[2px] w-16 bg-orange-500/60 mx-auto mb-6"></div>
-            <p className="text-sm md:text-base text-gray-400 max-w-2xl mx-auto mb-10">
+              <p className="text-sm md:text-base text-gray-400 max-w-2xl mx-auto mb-10">
               Our AI-powered platform provides assistance across various legal aspects
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-semibold mb-3 group-hover:text-orange-400 transition-colors">Legal Information</h3>
               <p className="text-sm text-gray-400">
-                Get clear, concise explanations about Indian laws, legal procedures, and your rights in simple language.
+                Get clear, concise explanations about Pakistani laws, legal procedures, and your rights in simple language.
               </p>
             </div>
             
@@ -91,7 +91,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-semibold mb-3 group-hover:text-orange-400 transition-colors">Rights Awareness</h3>
               <p className="text-sm text-gray-400">
-                Learn about your legal rights and protections under Indian law in various situations.
+                Learn about your legal rights and protections under Pakistani law in various situations.
               </p>
             </div>
           </div>
@@ -105,14 +105,14 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Legal Topics We Cover</h2>
             <div className="h-[2px] w-16 bg-orange-500/60 mx-auto mb-6"></div>
             <p className="text-sm md:text-base text-gray-400 max-w-2xl mx-auto mb-10">
-              NyayaSahayak provides information on a wide range of legal topics relevant to Indian citizens.
+              PakJustice AI provides information on a wide range of legal topics relevant to Pakistani citizens.
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             {[
               { title: "Constitutional Law", desc: "Fundamental rights, directive principles, and constitutional remedies", icon: <Landmark className="w-5 h-5" /> },
-              { title: "Criminal Law", desc: "IPC, CrPC, and criminal procedures in India", icon: <Shield className="w-5 h-5" /> },
+              { title: "Criminal Law", desc: "PPC, CrPC, and criminal procedures in Pakistan", icon: <Shield className="w-5 h-5" /> },
               { title: "Civil Law", desc: "Property rights, contracts, and civil procedures", icon: <FileText className="w-5 h-5" /> },
               { title: "Family Law", desc: "Marriage, divorce, adoption, and succession laws", icon: <Users className="w-5 h-5" /> },
               { title: "Consumer Law", desc: "Consumer protection and dispute resolution", icon: <ShoppingBag className="w-5 h-5" /> },
@@ -151,7 +151,7 @@ export default function Home() {
               <div className="md:w-2/3">
                 <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">Ready to Get <span className="text-orange-500">Legal Assistance?</span></h2>
                 <p className="text-sm md:text-base text-gray-300 mb-0 md:mb-4 max-w-xl">
-                  Start a conversation with NyayaSahayak now and get the legal information you need.
+                  Start a conversation with PakJustice AI now and get the legal information you need.
                 </p>
               </div>
               <div className="md:w-1/3 flex justify-center md:justify-end">

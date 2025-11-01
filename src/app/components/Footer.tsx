@@ -15,11 +15,11 @@ const Footer: React.FC = () => {
                 <Scale className="w-5 h-5 text-white" />
               </div>
               <h3 className="text-white text-2xl font-semibold">
-                <span className="text-orange-500">Nyaya</span>Sahayak
+                PakJustice AI
               </h3>
             </div>
             <p className="mb-8 text-lg text-gray-300 max-w-md">
-              Your AI-powered legal assistant for Indian law information and guidance.
+              Your AI-powered legal assistant for Pakistani law information and guidance.
             </p>
             <div className="flex space-x-5">
               <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-orange-500 transition-colors duration-300">
@@ -58,13 +58,12 @@ const Footer: React.FC = () => {
           <div className="md:col-span-3">
             <h3 className="text-white text-lg font-semibold mb-6">Disclaimer</h3>
             <p className="text-sm text-gray-400">
-              NyayaSahayak provides information about Indian laws for educational purposes only.
-              This is not legal advice. For specific legal concerns, please consult a qualified
-              legal professional in India.
+              PakJustice AI provides legal information about Pakistani laws for educational purposes only. For specific legal concerns, please consult a qualified
+              legal professional in Pakistan.
             </p>
             <div className="h-px w-full bg-gradient-to-r from-transparent via-gray-700 to-transparent my-6"></div>
             <p className="text-sm text-gray-500">
-              &copy; {new Date().getFullYear()} NyayaSahayak. All rights reserved.
+              &copy; {new Date().getFullYear()} PakJustice AI. All rights reserved. Developed by Zain Latif.
             </p>
           </div>
         </div>
